@@ -1,0 +1,515 @@
+.landing-pages {
+
+    .scroll-top {
+        cursor: pointer;
+    }
+    .content-width {
+        overflow: hidden;
+    }
+
+    .lp_module {
+        padding: 20px 0px;
+    }
+
+}
+    .landing-page-2 {
+
+        .landing-content-area {
+            padding:20px 0px;
+
+            h2 {
+                margin-bottom: 20px !important;
+            }
+
+            h2,h3 {
+                color:$blue;
+            }
+        }
+
+        #testimonials {
+            //padding: 50px 0px;
+        }
+
+        #logo-row {
+            padding: 20px 0px;
+        }
+
+
+    }
+
+
+
+#lp1-header,#lp2-header {
+    overflow: hidden;
+    width: 100%;
+    height:45vw;
+    margin:0;
+    #white-logo {
+        width: 95px;
+        height: 95px;
+        margin: 25px;
+    }
+    h1, p {
+        text-align: center;
+        color: $white;
+        width: 90%;
+        margin: auto;
+    }
+    h1 {
+        width: 90%;
+        margin: auto;
+        font-size: 55px;
+        margin-top: 7vw;
+        margin-bottom: 15px;
+    }
+    p { 
+        width: 60%;
+        margin: auto;
+        font-weight: 500;
+        font-size: 1.2em;
+    }
+    @media screen and (max-width: 1200px) {
+        h1 {
+            margin-top: 1vw;
+            font-size: 35px;
+            width: auto;
+        }
+        p {
+            width: auto;
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+         #white-logo {
+                width: 65px;
+                height: 65px;
+                margin: 25px;
+            }
+    }
+}
+#lp1-header {
+    background-image: url("../../images/Layer-8688.png");
+    background-size: cover;
+}
+#lp2-header {
+    background-color: #0082cb;
+    overflow: auto;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    height: auto;
+    #dtn-logo {
+        width: 130px;
+        height: 130px;
+        margin-top: -15px;
+    }
+    .content-width {
+        overflow: hidden;
+    }
+    h1 {
+        margin-top:14vw;
+        margin-bottom: 0;
+    }
+    p {
+        margin-bottom: 50px;
+    }
+}
+
+
+#cta-form {
+    max-width: 1000px;
+    background-color: $white;
+    margin: auto;
+    margin-top: -150px;
+    overflow: auto;
+    padding: 30px;
+    input {
+        //display: block;
+        //width: 461px;
+        //margin-bottom: 15px;
+        //margin-top: 0;
+    }
+    
+    #cta-inputs {
+        float: right;
+    }
+    .button {
+        background-color: $white;
+        margin-top: 13px;
+    }
+    @media screen and (max-width: 950px) {
+        margin-top: -50px;
+    }
+    @media screen and (max-width: 750px) {
+        margin-top: 0px;
+    }
+}
+
+.benefits-area {
+    display: block;
+    position: relative;
+    padding: 15px 0px;
+}
+    
+.benefits-box { 
+    display: inline-block;
+    float: left;
+    width: 50%;
+    line-height: 1.5;
+    font-size: 1em;
+    color: $black;
+    text-align: left;
+    img {
+        float: left;
+        width: 12%;
+        margin-top: 3px;
+    }
+    div {
+        display: inline-block;
+        padding-left: 4%;
+        padding-right: 4%;
+        width: 80%;
+        float:left;
+    }
+    h5 {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 0;
+    }
+
+    &.single-box {
+        width: 100%;
+    }
+
+    @media screen and (max-width: 1150px) {
+
+
+    }
+
+    @media screen and (max-width: 600px) {
+
+        width: 100%;
+        float:none;
+        text-align: center;
+
+        div {
+            width: 100%;
+            float:none;
+            padding: 0px;
+        }
+        img {
+            margin-bottom: 45px;
+            width: 120px;
+            margin: auto;
+            float:none;
+            margin-bottom: 10px;
+        }
+    }
+}
+#lp2-header .left-column {
+    width: 100%;
+    .benefits-box {
+        display: block;
+        width: 47%;
+        padding:0;
+        margin:0px 1.5%;
+        margin-bottom: 45px;
+        img {
+            margin: 0;
+            float: left;
+            width: 95px;
+            //margin-top: 20px
+        }
+        div {
+
+            p {
+                margin: 0;
+                width: 100%;
+                font-size: 1em;
+                font-weight: 400;
+                line-height: 1.7;
+                text-align: left;
+            }
+        }
+
+        &.single-box {
+            width: 100%;
+        }
+    
+
+
+        .benefit-image {
+            width: 20%;
+            margin-right: 4%;
+            float:left;
+            padding: 0px;
+
+            img {
+                width:100%;
+                height: auto;
+
+            }
+
+        }
+
+        .benefit-text {
+            width: 76%;
+            float:left;
+            padding: 0px;
+
+            &.no-icon {
+                width:100%;
+            }
+        }
+    }
+}
+#lp2-header .right-column {              
+    width: 100%;
+    #cta-form {
+        width: calc(100%-40px);
+        height: auto;
+        background-color: $form-box-grey;
+        margin: 0;
+        margin-bottom: 30px;
+        padding: 20px;
+        overflow: auto;
+        max-width: 100%;
+        text-align: center;
+        .white {
+            background-color: $white;
+            padding: 20px 20px 35px;
+            input {
+                //width: 75%;
+            }
+            
+            .button {
+                
+            }
+        }
+
+        .form-success {
+            margin: 45px 0px !important;
+            text-align: center !important;
+            width: 100%;
+            color:$black;
+            font-size: 1em;
+        }
+    }
+
+    .form-pdf-thumb {
+        width:10%;
+        float:left;
+
+        img {
+            width:100%;
+            height: auto;
+            max-width: 100%;
+        }
+    }
+
+    .eloqua-form {
+        width:90%;
+        float:left;
+
+        &.no-icon {
+            width:100%;
+        }
+    }
+}
+
+#lp-main {
+    
+    text-align: center;
+    
+    .content-width {
+        width: 85%;
+        max-width: 1200px;
+        h2 {
+            margin: 0;
+            margin-bottom: 15px;
+        }
+        h2.blue {
+            margin: 40px;
+            color: #0082cb;
+        }
+        #logo-row {
+            img {
+                height: auto;
+                padding: 25px 12px 0;
+            }
+        }
+        hr {
+            width: 100%;
+            border-color: #818181;
+            margin: 25px 0;
+        }
+        #testimonials {
+            text-align: left;
+            color: #575757;
+            line-height: 1.6;
+            h3.blue {
+                color: #0082cb;
+            }
+            div {
+                display: inline-block;
+                float: left;
+                width: 29%;
+                padding-left: 6%;
+                margin-bottom: 75px;
+                p {
+                    margin-top: 25px;
+                }
+                cite p {
+                    margin-top: 0px;
+                }
+            }
+            div:first-of-type {
+                padding-left: 0;
+            }
+            @media screen and (max-width: 850px) {
+                div {
+                    width: 100%;
+                    padding-left: 0;
+                    margin-bottom: 35px;
+                    p {
+                        margin-top: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+main.lp2 {
+    .content-width {
+        h2 {
+            margin: 40px;
+        }
+        .testimonials {
+            h3 {
+                color: #0082cb;
+            }
+        }
+    }
+}
+
+#lp-footer {
+    margin-top: 30px;
+    background: $background-light-grey;
+    text-align: center;
+    padding: 20px;
+    div {
+        width: 70%;
+        margin: auto;
+    }
+    h5, .button {
+        display: inline-block;
+        margin: 30px 40px;
+    }
+    .button {
+        background-color: $white;
+    }
+    @media screen and (max-width: 925px) {
+        div {
+            width: 360px;
+        }
+        h5, .button {
+            display: block;
+            margin: 10px 0;
+        }
+    }
+}
+
+
+.landing-page-1 {
+
+    .form-pdf-thumb {
+        width: 10%;
+        float:left;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .eloqua-form {
+            float:left;
+            width:90%;
+    }
+
+    .eloqua-form.no-icon {
+        width:100%;
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+
+    .landing-page-2 {
+
+        .left-column, .right-column {
+            width: 100% !important;
+        }
+
+    }
+
+}
+
+
+@media screen and (max-width: 700px ) {
+
+    #lp2-header .left-column {
+
+        .benefits-box {
+            width: 100%;
+            float:none;
+            text-align: center;
+        }
+
+    }
+
+    #lp2-header .right-column { 
+
+        .form-pdf-thumb {
+            width: 100%;
+            text-align: center;
+            img {
+                max-width: 140px;
+
+            }
+        }
+
+        .eloqua-form {
+            width:100%;
+            float:left;
+        }
+
+    }
+
+
+    .landing-page-1 {
+
+        #lp1-header {
+            height: auto;
+            padding-bottom: 40px;
+            background-position: center !important;
+            h1 {
+                font-size: 28px;
+                line-height: 1.2em;
+                margin-top: 10px;
+            }
+        }
+
+        .form-pdf-thumb {
+        width: 100%;
+        text-align: center;
+        img {
+                max-width: 140px;
+
+            }
+
+        }
+    }
+}
+
+
