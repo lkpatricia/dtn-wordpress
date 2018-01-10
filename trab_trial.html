@@ -1,0 +1,1175 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>We are DTN</title>
+
+    <!-- Bootstrap stylesheets-->
+    <link href="http://www.dtn.com/_formtest/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://www.dtn.com/_formtest/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container" style="background-color:#fff">
+            <div class="row" style="padding:15px 0px">
+              <!-- <div class="col-md-12"><img class="img-responsive" src="img/mast_logo_graphic.png" height="400px" width="740" alt=""></div> -->
+              <div class="col-md-12"><h3>DTN Agribusiness Trading Trial Form Test</h3></div>
+              <div class="col-md-12">
+                <label style="font-size:larger;font-weight:bold;color:red" id="errormessage"></label>
+
+              </div>
+              <div class="col-md-12" style="margin-top:30px">
+                  <form class="form-horizontal" method="post" id="TrAb_trial" action="https://s611408362.t.eloqua.com/e/f2" name="trab_trial" role="form" data-toggle="validator">
+                    <input type="hidden" name="elqFormName" value="trab_trial">
+                    <input type="hidden" name="elqSiteID" value="611408362">
+                    <div class="form-group has-feedback">
+                      <label for="FirstName" class="control-label col-sm-3">First Name</label>
+                      <div class="col-sm-9">
+                        <div class="input-group">
+                          <div class="input-group-addon"><i class="fa fa-user"></i></div>
+                          <input type="text" class="form-control" name="FirstName" id="FirstName" placeholder="First Name" required>
+                        </div>
+                        <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                      </div>
+                    </div>
+                    <div class="form-group has-feedback">
+                      <label for="LastName" class="control-label col-sm-3">Last Name</label>
+                      <div class="col-sm-9">
+                        <div class="input-group">
+                          <div class="input-group-addon"><i class="fa fa-user"></i></div>
+                          <input type="text" class="form-control" name="LastName" id="LastName" placeholder="Last Name" required>
+                        </div>
+                        <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                      </div>
+                    </div>
+                    <!-- <div class="form-group has-feedback">
+                      <label for="Title" class="control-label col-sm-3">Title</label>
+                      <div class="col-sm-9">
+                        <div class="input-group">
+                          <div class="input-group-addon"><i class="fa fa-address-card"></i></div>
+                          <input type="text" class="form-control" name="Title" id="Title" placeholder="Title">
+                        </div>
+                        <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                      </div>
+                    </div> -->
+                    <div class="form-group has-feedback">
+                      <label for="CompanyName" class="control-label col-sm-3">Company Name</label>
+                      <div class="col-sm-9">
+                        <div class="input-group">
+                          <div class="input-group-addon"><i class="fa fa-building"></i></div>
+                          <input type="text" class="form-control" name="CompanyName" id="CompanyName" placeholder="Company Name" >
+                        </div>
+                        <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                      </div>
+                    </div>
+                    <div class="form-group has-feedback">
+                      <label for="Address1" class="control-label col-sm-3">Street Address 1</label>
+                      <div class="col-sm-9">
+                        <div class="input-group">
+                          <div class="input-group-addon"><i class="fa fa-map-signs"></i></div>
+                          <input type="text" class="form-control" name="Address1" id="Address1" placeholder="Street Address 1" required>
+                        </div>
+                        <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                      </div>
+                    </div>
+                    <!-- <div class="form-group has-feedback">
+                      <label for="Address2" class="control-label col-sm-3">Street Address 2</label>
+                      <div class="col-sm-9">
+                        <div class="input-group">
+                          <div class="input-group-addon"><i class="fa fa-road"></i></div>
+                          <input type="text" class="form-control" name="Address2" id="Address2" placeholder="Street Address 2">
+                        </div>
+                        <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                      </div>
+                    </div> -->
+                    <!-- <div class="form-group has-feedback">
+                      <label for="State" class="control-label col-sm-3">State</label>
+                      <div class="col-sm-9">
+                        <div class="input-group">
+                          <div class="input-group-addon"><i class="fa fa-map"></i></div>
+                          <input type="text" class="form-control" name="State" id="State" placeholder="State" required>
+                        </div>
+                        <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                      </div>
+                    </div> -->
+                    <div class="form-group has-feedback">
+                      <label for="Country" class="control-label col-sm-3">Country</label>
+                      <div class="col-sm-9">
+                        <div class="input-group">
+                          <div class="input-group-addon"><i class="fa fa-chevron-down"></i></div>
+                          <select required class="form-control" name="Country" id="Country" placeholder="Select Country">
+                            <option value="" selected="selected">Select Country</option>
+                            <option value="">____________________</option>
+                            <option value="USA">United States</option>
+                            <option value="CAN">Canada</option>
+                            <option value="">____________________</option>
+                            <option value="AFG">Afghanistan</option>
+                            <option value="ALB">Albania</option>
+                            <option value="DZA">Algeria</option>
+                            <option value="ASM">American Samoa</option>
+                            <option value="AND">Andorra</option>
+                            <option value="AGO">Angola</option>
+                            <option value="AIA">Anguilla</option>
+                            <option value="ATA">Antarctica</option>
+                            <option value="ATG">Antigua and Barbuda</option>
+                            <option value="ARG">Argentina</option>
+                            <option value="ARM">Armenia</option>
+                            <option value="ABW">Aruba</option>
+                            <option value="AUS">Australia</option>
+                            <option value="AUT">Austria</option>
+                            <option value="AZE">Azerbaijan</option>
+                            <option value="BHS">Bahamas</option>
+                            <option value="BHR">Bahrain</option>
+                            <option value="BGD">Bangladesh</option>
+                            <option value="BRB">Barbados</option>
+                            <option value="BLR">Belarus</option>
+                            <option value="BEL">Belgium</option>
+                            <option value="BLZ">Belize</option>
+                            <option value="BEN">Benin</option>
+                            <option value="BMU">Bermuda</option>
+                            <option value="BTN">Bhutan</option>
+                            <option value="BOL">Bolivia</option>
+                            <option value="BIH">Bosnia and Herzegovina</option>
+                            <option value="BWA">Botswana</option>
+                            <option value="BVT">Bouvet Island</option>
+                            <option value="BRA">Brazil</option>
+                            <option value="IOT">British Indian Ocean Territory</option>
+                            <option value="BRN">Brunei Darussalam</option>
+                            <option value="BGR">Bulgaria</option>
+                            <option value="BFA">Burkina Faso</option>
+                            <option value="BDI">Burundi</option>
+                            <option value="KHM">Cambodia</option>
+                            <option value="CMR">Cameroon</option>
+                            <option value="CPV">Cape Verde</option>
+                            <option value="CYM">Cayman Islands</option>
+                            <option value="CAF">Central African Republic</option>
+                            <option value="TCD">Chad</option>
+                            <option value="CHL">Chile</option>
+                            <option value="CHN">China</option>
+                            <option value="CXR">Christmas Island</option>
+                            <option value="CCK">Cocos (Keeling) Islands</option>
+                            <option value="COL">Colombia</option>
+                            <option value="COM">Comoros</option>
+                            <option value="COG">Congo</option>
+                            <option value="COD">Congo, The Democratic Republic</option>
+                            <option value="COK">Cook Islands</option>
+                            <option value="CRI">Costa Rica</option>
+                            <option value="CIV">Cote D'Ivoire</option>
+                            <option value="HRV">Croatia</option>
+                            <option value="CUB">Cuba</option>
+                            <option value="CYP">Cyprus</option>
+                            <option value="CZE">Czech Republic</option>
+                            <option value="DNK">Denmark</option>
+                            <option value="DJI">Djibouti</option>
+                            <option value="DMA">Dominica</option>
+                            <option value="DOM">Dominican Republic</option>
+                            <option value="TMP">East Timor</option>
+                            <option value="ECU">Ecuador</option>
+                            <option value="EGY">Egypt</option>
+                            <option value="SLV">El Salvador</option>
+                            <option value="GNQ">Equatorial Guinea</option>
+                            <option value="ERI">Eritrea</option>
+                            <option value="EST">Estonia</option>
+                            <option value="ETH">Ethiopia</option>
+                            <option value="FLK">Falkland Islands (Malvinas)</option>
+                            <option value="FRO">Faroe Islands</option>
+                            <option value="FJI">Fiji</option>
+                            <option value="FIN">Finland</option>
+                            <option value="MKD">Fmr Yugoslav Rep of Macedonia</option>
+                            <option value="FRA">France</option>
+                            <option value="GUF">French Guiana</option>
+                            <option value="PYF">French Polynesia</option>
+                            <option value="ATF">French Southern Territories</option>
+                            <option value="GAB">Gabon</option>
+                            <option value="GMB">Gambia</option>
+                            <option value="GEO">Georgia</option>
+                            <option value="DEU">Germany</option>
+                            <option value="GHA">Ghana</option>
+                            <option value="GIB">Gibraltar</option>
+                            <option value="GRC">Greece</option>
+                            <option value="GRL">Greenland</option>
+                            <option value="GRD">Grenada</option>
+                            <option value="GLP">Guadeloupe</option>
+                            <option value="GUM">Guam</option>
+                            <option value="GTM">Guatemala</option>
+                            <option value="GIN">Guinea</option>
+                            <option value="GNB">Guinea-Bissau</option>
+                            <option value="GUY">Guyana</option>
+                            <option value="HTI">Haiti</option>
+                            <option value="HMD">Heard and McDonald Islands</option>
+                            <option value="VAT">Holy See (Vatican City State)</option>
+                            <option value="HND">Honduras</option>
+                            <option value="HKG">Hong Kong</option>
+                            <option value="HUN">Hungary</option>
+                            <option value="ISL">Iceland</option>
+                            <option value="IND">India</option>
+                            <option value="IDN">Indonesia</option>
+                            <option value="IRN">Iran (Islamic Republic Of)</option>
+                            <option value="IRQ">Iraq</option>
+                            <option value="IRL">Ireland</option>
+                            <option value="ISR">Israel</option>
+                            <option value="ITA">Italy</option>
+                            <option value="JAM">Jamaica</option>
+                            <option value="JPN">Japan</option>
+                            <option value="JOR">Jordan</option>
+                            <option value="KAZ">Kazakstan</option>
+                            <option value="KEN">Kenya</option>
+                            <option value="KIR">Kiribati</option>
+                            <option value="PRK">Korea, Democratic People's Rep</option>
+                            <option value="KOR">Korea, Republic of</option>
+                            <option value="KWT">Kuwait</option>
+                            <option value="KGZ">Kyrgyzstan</option>
+                            <option value="LAO">Lao People's Democratic Rep</option>
+                            <option value="LVA">Latvia</option>
+                            <option value="LBN">Lebanon</option>
+                            <option value="LSO">Lesotho</option>
+                            <option value="LBR">Liberia</option>
+                            <option value="LBY">Libyan Arab Jamahiriya</option>
+                            <option value="LIE">Liechtenstein</option>
+                            <option value="LTU">Lithuania</option>
+                            <option value="LUX">Luxembourg</option>
+                            <option value="MAC">Macau</option>
+                            <option value="MDG">Madagascar</option>
+                            <option value="MWI">Malawi</option>
+                            <option value="MYS">Malaysia</option>
+                            <option value="MDV">Maldives</option>
+                            <option value="MLI">Mali</option>
+                            <option value="MLT">Malta</option>
+                            <option value="MHL">Marshall Islands</option>
+                            <option value="MTQ">Martinique</option>
+                            <option value="MRT">Mauritania</option>
+                            <option value="MUS">Mauritius</option>
+                            <option value="MYT">Mayotte</option>
+                            <option value="MEX">Mexico</option>
+                            <option value="FSM">Micronesia, Federated States</option>
+                            <option value="MDA">Moldova, Republic of</option>
+                            <option value="MCO">Monaco</option>
+                            <option value="MNG">Mongolia</option>
+                            <option value="MSR">Montserrat</option>
+                            <option value="MAR">Morocco</option>
+                            <option value="MOZ">Mozambique</option>
+                            <option value="MMR">Myanmar</option>
+                            <option value="NAM">Namibia</option>
+                            <option value="NRU">Nauru</option>
+                            <option value="NPL">Nepal</option>
+                            <option value="NLD">Netherlands</option>
+                            <option value="ANT">Netherlands Antilles</option>
+                            <option value="NCL">New Caledonia</option>
+                            <option value="NZL">New Zealand</option>
+                            <option value="NIC">Nicaragua</option>
+                            <option value="NER">Niger</option>
+                            <option value="NGA">Nigeria</option>
+                            <option value="NIU">Niue</option>
+                            <option value="NFK">Norfolk Island</option>
+                            <option value="MNP">Northern Mariana Islands</option>
+                            <option value="NOR">Norway</option>
+                            <option value="OMN">Oman</option>
+                            <option value="PAK">Pakistan</option>
+                            <option value="PLW">Palau</option>
+                            <option value="PAN">Panama</option>
+                            <option value="PNG">Papua New Guinea</option>
+                            <option value="PRY">Paraguay</option>
+                            <option value="PER">Peru</option>
+                            <option value="PHL">Philippines</option>
+                            <option value="PCN">Pitcairn</option>
+                            <option value="POL">Poland</option>
+                            <option value="PRT">Portugal</option>
+                            <option value="PRI">Puerto Rico</option>
+                            <option value="QAT">Qatar</option>
+                            <option value="REU">Reunion</option>
+                            <option value="ROU">Romania</option>
+                            <option value="RUS">Russian Federation</option>
+                            <option value="RWA">Rwanda</option>
+                            <option value="SHN">Saint Helena</option>
+                            <option value="KNA">Saint Kitts and Nevis</option>
+                            <option value="LCA">Saint Lucia</option>
+                            <option value="SPM">Saint Pierre and Miquelon</option>
+                            <option value="WSM">Samoa</option>
+                            <option value="SMR">San Marino</option>
+                            <option value="STP">Sao Tome and Principe</option>
+                            <option value="SAU">Saudi Arabia</option>
+                            <option value="SEN">Senegal</option>
+                            <option value="SYC">Seychelles</option>
+                            <option value="SLE">Sierra Leone</option>
+                            <option value="SGP">Singapore</option>
+                            <option value="SVK">Slovakia</option>
+                            <option value="SVN">Slovenia</option>
+                            <option value="SLB">Solomon Islands</option>
+                            <option value="SOM">Somalia</option>
+                            <option value="ZAF">South Africa</option>
+                            <option value="ESP">Spain</option>
+                            <option value="LKA">Sri Lanka</option>
+                            <option value="VCT">St Vincent and the Grenadines</option>
+                            <option value="SGS">Sth Georgia &amp; Sth Sandwich Is</option>
+                            <option value="SDN">Sudan</option>
+                            <option value="SUR">Suriname</option>
+                            <option value="SJM">Svalbard and Jan Mayen</option>
+                            <option value="SWZ">Swaziland</option>
+                            <option value="SWE">Sweden</option>
+                            <option value="CHE">Switzerland</option>
+                            <option value="SYR">Syrian Arab Republic</option>
+                            <option value="TWN">Taiwan, Province of China</option>
+                            <option value="TJK">Tajikistan</option>
+                            <option value="TZA">Tanzania, United Republic of</option>
+                            <option value="THA">Thailand</option>
+                            <option value="TGO">Togo</option>
+                            <option value="TKL">Tokelau</option>
+                            <option value="TON">Tonga</option>
+                            <option value="TTO">Trinidad and Tobago</option>
+                            <option value="TUN">Tunisia</option>
+                            <option value="TUR">Turkey</option>
+                            <option value="TKM">Turkmenistan</option>
+                            <option value="TCA">Turks and Caicos Islands</option>
+                            <option value="TUV">Tuvalu</option>
+                            <option value="UMI">US Minor Outlying Islands</option>
+                            <option value="UGA">Uganda</option>
+                            <option value="UKR">Ukraine</option>
+                            <option value="ARE">United Arab Emirates</option>
+                            <option value="GBR">United Kingdom</option>
+                            <option value="URY">Uruguay</option>
+                            <option value="UZB">Uzbekistan</option>
+                            <option value="VUT">Vanuatu</option>
+                            <option value="VEN">Venezuela</option>
+                            <option value="VNM">Viet Nam</option>
+                            <option value="VGB">Virgin Islands (British)</option>
+                            <option value="VIR">Virgin Islands (U.S.)</option>
+                            <option value="WLF">Wallis and Futuna Islands</option>
+                            <option value="ESH">Western Sahara</option>
+                            <option value="YEM">Yemen</option>
+                            <option value="YUG">Yugoslavia</option>
+                            <option value="ZMB">Zambia</option>
+                            <option value="ZWE">Zimbabwe</option>
+                          </select>
+                        </div>
+                        <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                      </div>
+                    </div>
+                    <div class="form-group has-feedback" id="form-group-City" style="display:none">
+                      <label for="City" class="control-label col-sm-3">City</label>
+                      <div class="col-sm-9">
+                        <div class="input-group">
+                          <div class="input-group-addon"><i class="fa fa-map-pin"></i></div>
+                          <input type="text" class="form-control" name="City" id="City" placeholder="City" >
+                        </div>
+                        <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                      </div>
+                    </div>
+                    <!-- <div class="form-group has-feedback">
+                      <label for="County" class="control-label col-sm-3">County</label>
+                      <div class="col-sm-9">
+                        <div class="input-group">
+                          <div class="input-group-addon"><i class="fa fa-bank"></i></div>
+                          <input type="text" class="form-control" name="County" id="County" placeholder="County">
+                        </div>
+                        <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                      </div>
+                    </div> -->
+                    <div class="form-group has-feedback">
+                      <label for="PostalCode" class="control-label col-sm-3">Postal Code</label>
+                      <div class="col-sm-9">
+                        <div class="input-group">
+                          <div class="input-group-addon"><i class="fa fa-map-marker"></i></div>
+                          <input type="text" class="form-control" name="PostalCode" id="PostalCode" placeholder="Postal Code" required>
+                        </div>
+                        <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                      </div>
+                    </div>
+                    <div class="form-group has-feedback">
+                      <label for="Phone" class="control-label col-sm-3">Phone</label>
+                      <div class="col-sm-9">
+                        <div class="input-group">
+                          <div class="input-group-addon"><i class="fa fa-mobile"></i></div>
+                          <input type="text" class="form-control" name="Phone" id="Phone" placeholder="Phone" required>
+                        </div>
+                        <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                      </div>
+                    </div>
+                    <!-- <div class="form-group has-feedback">
+                      <label for="PhoneType" class="control-label col-sm-3">Phone Type</label>
+                      <div class="col-sm-9">
+                        <div class="input-group">
+                          <div class="input-group-addon"><i class="fa fa-phone"></i></div>
+                          <input type="text" class="form-control" name="PhoneType" id="PhoneType" placeholder="PhoneType">
+                        </div>
+                        <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                      </div>
+                    </div> -->
+
+                    <div class="form-group has-feedback">
+                      <label for="EmailAddress" class="control-label col-sm-3">Email</label>
+                      <div class="col-sm-9">
+                          <div class="input-group">
+                            <div class="input-group-addon"><i class="fa fa-envelope"></i></div>
+                            <input type="email" class="form-control" name="EmailAddress" id="EmailAddress" placeholder="Email" data-error="That email address is invalid" required>
+                          </div>
+                          <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                          <!--- <div class="help-block with-errors"></div> --->
+                        </div>
+                    </div>
+
+                   <!-- INDUSTRY -->
+
+                   <!-- <div class="form-group has-feedback" id="form-group-industry">
+                     <label for="industry" class="control-label col-sm-3">Industry</label>
+                     <div class="col-sm-9">
+                       <div class="input-group">
+                         <div class="input-group-addon"><i class="fa fa-chevron-down"></i></div>
+                         <select class="form-control" name="industry" id="industry" placeholder="Industry" required>
+                           <option value="" selected="selected">Industry</option>
+                           <option id="indAviation" value="Aviation">Aviation</option>
+                           <option id="indConstruction" value="Construction">Construction</option>
+                           <option id="indPubSafety" value="Public Safety">Public Safety</option>
+                           <option id="indTurfSports" value="TurfSports">Turf/Sports</option>
+                           <option id="indEnergy" value="Energy">Energy</option>
+                           <option id="indTransportation" value="Transportation">Transportation</option>
+                         </select>
+                       </div>
+                       <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                     </div>
+                   </div> -->
+
+                   <!-- EDITION -->
+
+                   <!-- <div class="form-group has-feedback av_edition" id="Aviation">
+                     <label for="edition" class="control-label col-sm-3">AVeditions</label>
+                     <div class="col-sm-9">
+                       <div class="input-group">
+                         <div class="input-group-addon"><i class="fa fa-chevron-down"></i></div>
+                         <select class="form-control" name="edition" id="AVeditions" placeholder="Edition">
+                           <option value="" selected="selected">Select Edition</option>
+                           <option id="edHelicopter" value="Helicopter">Helicopter Edition</option>
+                           <option id="edCorporate" value="Corporate">Corporate Edition</option>
+                           <option id="edAirport" value="Airports">Airport Edition</option>
+                           <option id="edAirline" value="CA Airlines">Airline Edition</option>
+                           <option id="edFlightDept" value="Flight Departments">Flight Departments Edition</option>
+                           <option id="edFBO" value="Fixed Base Operators">Fixed Base Operators Edition</option>
+                           <option id="edGovMil" value="Government Military">Government &amp; Military Edition</option>
+                           <optgroup id="optgroupHeli" label="Helicopter">
+                           <option id="edAirMed" value="Heli Air Medical">Air Medical Edition</option>
+                           <option id="edLawEnf" value="Heli Law Enforcement">Law Enforcement Edition</option>
+                           <option id="edPetrol" value="Heli Petroleum">Petroleum Edition</option>
+                           </optgroup>
+                         </select>
+                       </div>
+                       <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                     </div>
+                   </div>
+
+                   <div class="form-group has-feedback sp_edition" id="TurfSports">
+                     <label for="edition" class="control-label col-sm-3">SPeditions</label>
+                     <div class="col-sm-9">
+                       <div class="input-group">
+                         <div class="input-group-addon"><i class="fa fa-chevron-down"></i></div>
+                         <select class="form-control" name="edition" id="SPeditions" placeholder="Edition" >
+                           <option value="" selected="selected">Select Edition</option>
+                           <option value="Turf">Turf Edition</option>
+                           <option value="Sports">Sports Edition</option>
+                           </optgroup>
+                         </select>
+                       </div>
+                       <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                     </div>
+                   </div>
+
+                   <div class="form-group has-feedback en_edition" id="Energy">
+                     <label for="edition" class="control-label col-sm-3">ENeditions</label>
+                     <div class="col-sm-9">
+                       <div class="input-group">
+                         <div class="input-group-addon"><i class="fa fa-chevron-down"></i></div>
+                         <select class="form-control" name="edition" id="ENeditions" placeholder="Edition" >
+                           <option value="" selected="selected">Select Edition</option>
+                           <option id="edEnergy" value="Energy">Energy Edition</option>
+                           <option id="edUtility" value="Utility">Utility Edition</option>
+                           <option id="edWind" value="Wind Energy">Wind Energy Edition</option>
+                           <option id="edWater" value="Water">Water Utility Edition</option>
+                           </optgroup>
+                         </select>
+                       </div>
+                       <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                     </div>
+                   </div>
+
+                   <div class="form-group has-feedback tr_edition" id="Transportation">
+                     <label for="edition" class="control-label col-sm-3">TReditions</label>
+                     <div class="col-sm-9">
+                       <div class="input-group">
+                         <div class="input-group-addon"><i class="fa fa-chevron-down"></i></div>
+                         <select class="form-control" name="edition" id="TReditions" placeholder="Edition" >
+                           <option value="" selected="selected">Select Edition</option>
+                           <option value="Transportation">Transportation Edition</option>
+                           <option value="Pavement">Pavement Edition</option>
+                           </optgroup>
+                         </select>
+                       </div>
+                       <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                     </div>
+                   </div> -->
+
+                   <!-- END -->
+
+                    <div class="form-group col-sm-3">
+                      &nbsp;
+                    </div>
+                    <div class="form-group col-sm-9" style="margin-left:23px">
+                      <input type="checkbox" id="inlineCheckbox1" value="yes" required> I Agree to the <a href="#mktAgreementModal" data-toggle="modal" data-target="#mktAgreementModal">market exchange agreements</a> <br /><br />
+                      <input type="hidden" name="form_id" value="1150305" />
+                      <input type="hidden" name="dummy_field" value="xxxxxxxx" />
+                      <button type="submit" id="submit_button" name="submit" value="Submit" class="btn btn-primary">Submit</button>
+                    </div>
+
+                    <!-- HIDDEN -->
+                    <strong>Normally Hidden Fields</strong></br>
+
+                    <!-- Location <input id="coLocation" name="coLocation" value="" type="text"/><br /> -->
+                    CampaignID <input id="CampaignID" name="CampaignID" value="WVE0038564" type="text"/><br />
+                    CampaignUpsellID <input id="CampaignUpsellID" name="CampaignUpsellID" value="WVE0038569" type="text"/><br />
+                    CreateCRMLeadOppy <input id="CreateCRMLeadOppy" name="CreateCRMLeadOppy" value="O" type="text"/><br />
+                    DoNotEmail <input id="DoNotEmail" name="DoNotEmail" value="false" type="text"/><br />
+                    IndustryCD <input id="IndustryCD" name="IndustryCD" value="1006" type="text"/><br />
+                    SalesRepID  <input id="SalesRepID" name="SalesRepID" value="18509" type="text"/><br />
+                    Agreements <input style="width:500px" id="Agreements" name="Agreements" value="" type="text"/><br />
+                    SalesNotes <input style="width:500px" id="SalesNotes" name="SalesNotes" value="" type="text"/><br />
+                    Services  <input style="width:500px" id="Services" name="Services" value="ServiceCd|1XAPL~Billable|N~InitialTerm|.5^ServiceCd|ODJCW~Billable|N~InitialTerm|.5^ServiceCd|CGB30~Billable|N~InitialTerm|.5" type="text"/><br />
+
+                    <!-- needed for API normally hidden-->
+                    <br />to make the call error, change the APIMethod value<br />
+                    APIMethod: <input type="text" name="APIMethod" value="signup" /> <br />
+                    ProductID: <input type="text" id="ProductID" name="ProductID" value="BAF8490E-EC52-465A-B065-3B0370897FBB" style="width: 300px" /><br />
+                    <!-- ideally we will have server side calc of the Key value for security. This looks possible in PHP-->
+                    Key: <input type="text" id="Key" name="Key" value="o1Vj68o2xP2bep3VDpUa0g==" style="width: 189px" /><br />
+                    <input type="hidden" name="form_id" value="1150305" />
+
+                  </form>
+
+
+                <div class="col-md-12 text-center" style="padding:20px">
+                  By clicking Submit, you agree to receive news and offers from DTN. <br>
+                  You can withdraw your consent at any time. Please refer to our <a href="http://www.dtn.com/agriculture/legal/" target="_blank">Privacy Policy</a> for more details.<br>
+                  <h6>Contact us: 866-574-1048</h6><br></div>
+            </div>
+            </div>
+</div>
+
+              <!-- Modal -->
+              <div class="modal fade" id="mktAgreementModal" tabindex="-1" role="dialog" aria-labelledby="mktAgreementModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title" id="myModalLabel">UNIFORM UNSUBSCRIBER ADDENDUM</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p align="left">Please Note: Each exchange requires the following agreements to be completed for the provision of real time data, even if you are only interested in a trial offer. These agreements are submitted electronically. You may print these pages for your records. You are required to check every box to confirm your understanding. We cannot process your registration without this confirmation. CBOE Futures Exchange, CBOE Indexes, CBOT, CME, CME S&amp;P Cash Indexes,  ICE Futures U.S., ICE Futures Europe &ndash; Commodities,  ICE Futures Europe - Financials, ICE Futures Canada, ICE Endex, NYMEX, COMEX, CME Europe</p>
+                                    <p class="header" ><strong>1. DEFINITIONS.</strong></p>
+                                            <p align="left"><strong>(a)</strong> &quot;Device&quot; means any unit of equipment, fixed or portable, that receives, accesses or displays Market Data in visible, audible or other comprehensible form.</p>
+                                            <p align="left"><strong>(b)</strong> &quot;Force Majeure Event&quot; means any flood, extraordinary weather conditions, earthquake or other act of God, fire, war,
+                      terrorism, insurrection, riot, labor dispute, accident, action of government, communications or power failures, or equipment or software malfunctions.</p>
+                                            <p align="left"><strong>(c)</strong> &quot;Person&quot; means any natural person, proprietorship, corporation, partnership, limited liability company or other organization.</p>
+                                            <p align="left"><strong>(d)</strong> &quot;Market Data&quot; means information and data pertaining to futures contracts and options contracts or similar derivative
+                      instruments traded on the Exchanges as well as associated index data, that includes, without limitation, opening and closing range prices, high-low prices, settlement prices, current bid and ask prices, last sale prices, price limits, requests for quotations, estimated and actual contract volume data, text messages pertaining to market activity, contract specifications, fast or late messages and, as determined by each of the Exchanges, may include information respecting exchange-for-physical (EFP) or against actuals  (AA) transactions. With respect to Subscriber&rsquo;s obligations under this Addendum, Market Data includes information, data and materials that are derived from the foregoing and that convey information to Subscriber that is substantially equivalent to Market Data.
+
+                      </p>
+                                    <p class="header"><strong>2. PROPRIETARY RIGHTS IN THE MARKET DATA.</strong></p>
+                                            <p align="left"><strong>(a)</strong> Subscriber acknowledges and agrees that each of the Exchanges has exclusive and valuable property rights in and to its own Market Data, that such Market Data constitute valuable confidential information, trade secrets and/or proprietary rights of each of the Exchanges, not within the public domain, that such Market Data shall remain valuable confidential information, trade secrets and/or proprietary rights of each of the Exchanges at least until the Exchanges place their respective Market Data in the public domain or authorize placement of their respective Market Data in the public domain, and that, but for this Addendum, Subscriber would have no rights or access to such Market Data. Whether or not a particular Exchange has placed its Market Data in the public domain or has authorized the placement of its Market Data in the public domain shall be determined according to the terms of such Exchange&rsquo;s agreement with Vendor, which agreement is described in Section 3(a).</p>
+                                            <p align="left"><strong>(b)</strong> Subscriber acknowledges and agrees that disclosure of any Market Data, or any breach or threatened breach of any other covenants or agreements contained herein, would cause irreparable injury to each of the Exchanges for which money damages would be an inadequate remedy. Accordingly, Subscriber further acknowledges and agrees that each of the Exchanges shall be entitled to specific performance and injunctive and other equitable relief from the breach or threatened breach of any provision, requirement or covenant of this Addendum (including, without limitation, any disclosure or threatened disclosure of Market Data) in addition to and not in limitation of any other legal or equitable remedies which may be available.</p>
+                                            <p class="header"><strong>3. RECEIPT OF MARKET DATA BY SUBSCRIBER.</strong></p>
+                                            <p align="left"><strong>(a)</strong> Vendor and Subscriber have entered into an agreement by which Vendor will, among other things, provide Subscriber with Market Data. Vendor has entered into agreements with each of the Exchanges whereby Vendor has been granted the right to receive Market Data and to retransmit the same to Subscriber. This Addendum to the agreement between Vendor and Subscriber sets forth the terms and conditions upon which Subscriber may receive and use Market Data. Subscriber acknowledges that, notwithstanding such agreement, each of the Exchanges may, in its discretion, discontinue disseminating its own Market Data or change or eliminate its own transmission method, speed or signal characteristics. In addition, Subscriber acknowledges and agrees that the Exchanges reserve the right to disapprove any Subscriber and retain the right to direct Vendor to terminate any Subscriber&rsquo;s receipt of Market Data for any reason or no reason, in which event Exchanges shall so notify Vendor and Vendor shall cease providing Market Data to Subscriber as soon as practicable. </p>
+                                            <p align="left"><strong>(b)</strong> (1) Except as provided in (2) below, Subscriber will use Market Data only for its own internal business activities and only at the offices and locations and on the Devices designated by Subscriber in writing to Vendor from time-to-time. (The term &ldquo;for its own internal business activities&rdquo;, as used in the immediately preceding sentence herein, means for Subscriber&rsquo;s (a) trading, for its own account or for the account of its customers, of commodity futures contracts, options on commodity futures contracts or similar derivative instruments, or (b) evaluating, for its own internal business decisions or advice to its customers, the movements or trends in markets for commodity futures contracts, options on commodity future contracts, or like derivative instruments, subject to all of the limitations set forth below in this subparagraph as to the telephonic disclosure to customers of a necessary and de minimis number of segments of Market Data.)  Subscriber agrees that it will not communicate or otherwise furnish, or permit to be communicated or otherwise furnished, the Market Data, in any format, to any other party or any office or location other than that designated above, nor allow any other party to take, directly or indirectly, any of the Market Data from such offices or locations, and will adopt and enforce any policy that is reasonable to prevent the Market Data from being taken therefrom. Subscriber specifically agrees, without limiting or varying its obligations under paragraph 7 herein or otherwise set forth in this Addendum, that Subscriber shall not use or permit another person to use any Market Data for the purposes of determining or arriving at any price, including any settlement prices, for commodity futures contracts, options on commodity futures contracts, or like derivatives instruments traded on any exchange other than the Exchanges.  Subscriber will abide by any other limitations on such use that any of the Exchanges may specify. Subscriber will use its best efforts to ensure that its partners, officers, directors, employees and agents maintain sole control and physical possession of, and sole access to, Market Data received through Devices in Subscriber&rsquo;s possession. (2) Notwithstanding (1) above, Subscriber may, in the regular course of its business, occasionally furnish, to each of its customers, branch offices, and guaranteed introducing brokers, in a quantity restricted to that necessary to enable Subscriber to conduct its business, a de minimis number of segments of Market Data. Such redissemination must be strictly limited to telephonic communications not entailing the use of computerized voice synthesization or any other technology and must be strictly related to the trading activity of Subscriber or any such recipients. Any such recipients must be advised by Subscriber that such segments are proprietary and confidential information not to be disclosed or disseminated to other persons or entities. Subscriber agrees to make all reasonable efforts to ensure that such recipients abide by the provisions of this Addendum.  Notwithstanding the foregoing, in the event that a Subscriber is a newspaper which reports on, among other things, exchanges on which commodity futures contracts or options on commodity futures are traded, such Subscriber shall be permitted to publish, in its newspaper published for the day following the receipt by such Subscriber of the Market Data, the Market Data received by Subscriber from Exchanges on the day prior to such publication.</p>
+                                            <p align="left"><strong>(c)</strong> In the event that Vendor has agreed to permit Subscriber to receive, access or display Market Data through means other than a Vendor-provided Device, such as by means of: (i) Internet, any Intranet or any other type of network; (ii) portable Devices (e.g., pocket pagers, personal digital assistants, laptop computers, etc.); and (iii) synthesized voice responses over telephones, Subscriber will use its best efforts to ensure that no other device, attachment or apparatus is used which may allow third parties not subject to Subscriber&rsquo;s reporting obligations under Section 3(b) above to access the Market Data.</p>
+                                    <p class="header" ><strong>4. REPORTING.</strong></p> <p>Subscriber agrees to furnish promptly to Vendor any information or reports that may be required by any of the Exchanges as applicable and that is reasonably related to Subscriber&rsquo;s receipt of Market Data. Subscriber further agrees to furnish promptly to Vendor any additional information or reports that may be required by the agreement between Vendor and Subscriber referred to in Section 3(a) as it relates to Subscriber&rsquo;s receipt of Market Data.</p>
+                                            <p class="header"><strong>5. RIGHT OF INSPECTION AND AUDIT.</strong></p><p> During regular business hours, any Persons designated by any Exchange may have access to Subscriber's offices or locations in order to observe the use made of the Market Data and to examine and inspect any Devices, attachments or apparatuses, as well as any books and records required to be maintained by Subscriber under Sections 3(b) and 4 in connection with its receipt and use of Market Data. Subscriber will make prompt adjustment (including interest thereon at the rate of 1&frac12;% per month), through Vendor, to compensate any Exchange that discovers an under-reported use of the Market Data by Subscriber. In addition, at the election of any such Exchange, Subscriber will be liable for the reasonable costs of any audit that reveals a discrepancy in such Exchange's favor of five percent (5%) or more of the amount of fees actually due such Exchange. Subscriber shall maintain the records and books upon which it bases its reporting for CBOE, CBOT, CME, CME Europe, or ONE CHICAGO Market Data for three (3) years following the period to which the records relate. Subscriber shall maintain the records and books upon which it bases the reporting for NYMEX, COMEX, ICE FUTURES US, ICE FUTURES EUROPE (Commodities and Financials), or ICE FUTURES CANADA Market Data for six (6) years following the period to which the records and books relate. In the event that Subscriber fails to retain such records and books as required above, Subscriber agrees to pay each Exchange's reasonable estimate of any discrepancy discovered pursuant to any such audit.</p>
+                                            <p class="header"><strong>6. EXCHANGE FEES.</strong></p><p> Subscriber will pay Vendor (unless Vendor has assumed Subscriber&rsquo;s payment obligations hereunder), for and on behalf of each of the Exchanges (as applicable), for the right to receive Market Data in accordance with the then-current fee schedule published by each of the Exchanges from time-to-time (including any and all applicable federal, state or local taxes). Each Exchange&rsquo;s fees are subject to modification by each of them at any time, without prior notice to Subscriber. In addition, Subscriber agrees to pay Vendor any penalties assessed against Subscriber by Vendor on behalf of any Exchange. Nothing herein shall limit a Vendor&rsquo;s obligation pursuant to separate agreement between Vendor and any of the Exchanges (as applicable) to pay Exchange fees.</p>
+                                            <p class="header"><strong>7. COVENANTS, REPRESENTATIONS AND WARRANTIES OF SUBSCRIBER.</strong></p><p> Subscriber covenants, represents and warrants that it is not engaged in the business of distributing Market Data and that, to its knowledge after reasonable inquiry, it is receiving the Market
+                      Data from a Vendor that is authorized by the Exchanges to distribute the Market Data. Subscriber agrees that it will not use or permit any other Person to use Market Data for any illegal  purpose.  Subscriber agrees that it will not use Market Data in any way to compete with the Exchanges or Vendor, nor use the Market Data in any way so as to assist or allow a third party to compete with the Exchanges or Vendor. Subscriber agrees that the provision of Market Data by the Exchanges hereunder is conditioned upon Subscriber&rsquo;s strict compliance with the terms of this Addendum and that Vendor may, with or without notice and with or without cause, forthwith discontinue said service whenever in its judgment there has been any default or breach by Subscriber of the provisions hereof, or whenever directed to do so by any of the Exchanges.
+
+                      </p>
+                                            <p class="header"><strong>8. DISCLAIMER OF WARRANTIES.</strong></p> <p><strong>SUBSCRIBER AGREES THAT NEITHER VENDOR NOR THE EXCHANGES MAKE ANY REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED, WITH RESPECT TO THE MARKET DATA, OR THE TRANSMISSION, TIMELINESS, ACCURACY OR COMPLETENESS THEREOF, INCLUDING, WITHOUT LIMITATION, ANY IMPLIED WARRANTIES OR ANY WARRANTIES OF MERCHANTABILITY, QUALITY OR FITNESS FOR A PARTICULAR PURPOSE, AND THOSE ARISING BY STATUE OR OTHERWISE IN LAW OR FROM ANY COURSE OF DEALING OR USAGE OF TRADE. </strong></p>
+                                            <p class="header"> <strong>9. LIMITATIONS OF LIABILITY AND DAMAGES.</strong></p> <p>Subscriber agrees that: (i) the provision of Market Data is made with equipment, communications devices, and/or leased lines not owned or operated solely by Vendor or the Exchanges; (ii) neither Vendor nor the Exchanges, nor their respective members, directors, officers, employees or agents, guarantees the sequence, accuracy or completeness of the Market Data, nor shall any of them be liable to Subscriber or any other Person for any delays, inaccuracies, errors or omissions in Market Data, or in the transmission thereof, or for any other damages arising in connection with Subscriber&rsquo;s receipt or use of Market Data, whether or not resulting from negligence on their part, a Force Majeure Event or any other cause beyond their reasonable control; and (iii) if the fore-going disclaimer and limitation of liability should be deemed invalid or ineffective by a court of competent jurisdiction, neither Vendor nor the Exchanges, nor their respective members, directors, officers, employees, or agents shall be liable for any of the foregoing beyond the actual amount of loss or damage, or the sum of fifty dollars ($50.00), whichever is less.</p>
+                                            <p class="header"><strong>10. TERM AND TERMINATION.</strong></p><p> Subject to Subscriber&rsquo;s strict compliance with the provisions of this Addendum, the provision Market Data by any of the Exchanges hereunder will continue in force during the term of the agreement between Subscriber and Vendor and any renewal term thereof. In addition, it is understood that the provisions set forth in paragraphs 2(a) and 2(b) of this Addendum shall survive the termination of this Addendum.  </p>
+                                        <p align="left"><strong>11. INDEMNIFICATION.</strong> Subscriber will indemnify, defend and hold Vendor and the Exchanges, and their respective members, directors, officers, employees and agents harmless from and against any and all claims arising out of or in connection with this Addendum, including, without limitation, any liability, loss or damages (including, without limitation, attorneys&rsquo; fees and other expenses) caused by any inaccuracy in or omission from, Subscriber&rsquo;s failure to furnish or to keep, or Subscriber&rsquo;s delay in furnishing or keeping, any report required to be kept by Subscriber hereunder.   </p>
+                                        <p class="header" ><strong>12. MISCELLANEOUS.</strong></p><p> In case of any breach by Subscriber of its obligations hereunder, each of the Exchanges will be considered to be a third-party beneficiary of this Addendum and may bring an action to enforce its terms directly against Subscriber. Any action arising out of this Addendum between the CFE, CBOT, CME, CME Europe or ONE CHICAGO and Subscriber shall be governed and construed in accordance with the internal laws (and not the law of conflicts) of the State of Illinois. Any action arising out of this Addendum between NYMEX, COMEX, ICE ENDEX, ICE FUTURES US, ICE FUTURES EUROPE (Commodities or Financials), or ICE FUTURES CANADA and Subscriber shall be governed and construed in accordance with the internal laws (and not the law of conflicts) of the State of New York. Subscriber may not assign all or any part of this Addendum without the prior written consent of the Exchanges (as applicable). Neither Vendor nor Subscriber may modify or amend the terms of this Addendum. In the event of any conflict between the terms and conditions of this Addendum and any other agreement relating to Subscriber's receipt and use of Market Data, including, without limitation, the agreement between Vendor and Subscriber referred to in Section 3(a), the terms and conditions of this Addendum will prevail. If, for any reason, one or more provisions of this Addendum is held invalid, the other provisions of the Agreement shall remain in full force and effect.</p>      </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+<!-- SCRIPTS -->
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="http://dtn.yamamotoqa.com/wp-content/themes/dtn/dist/js/bootstrap.min.js"></script>
+    <script src="http://dtn.yamamotoqa.com/wp-content/themes/dtn/dist/js/validator.js"></script>
+
+
+
+<!--- AJAX FORM POST TO CRM/OM -->
+    <script>$('#TrAb_trial').validator().on('submit', function (e) {
+        if (e.isDefaultPrevented()) {
+            // alert('form is not valid');
+        } else {
+            // e.preventDefault();
+            alert('Bootstrap Validation Passed!');
+            var formdata = '{ "formcontents":"' + $('#TrAb_trial').serialize() + '" }';
+            $.ajax({
+                async: false,
+                url: 'https://myaccountcat.dtn.com/onboarding/Services/v2_0/Onboarding.svc/customer/transact',
+                method: 'POST',
+                contentType : 'application/json; charset=utf-8',
+                data: formdata,
+                success: function (result) {
+                    //would send onto Eloqua
+                    alert('OM/CRM Validation Passed!');
+                    $('#errormessage').html('successful CRM post');
+                },
+                error: function (result, status, errThrown) {
+                    //would stop and let user know
+                    event.preventDefault();
+                    var usermessage = result.responseJSON.Reason;
+                    alert(usermessage);
+                    // $('#errormessage').html(usermessage);
+                }
+            });
+            // your ajax
+        }
+    });
+    </script>
+
+<!--- OTHER FORM FUNCTIONS -->
+
+<script>
+// SET UNIFORM SUBSCRIBER AGREEMENT on page load
+
+$(document).ready(function() {
+
+              // COUNTRY CHANGE FUNCTION //
+
+              $('#Country').change(function() {
+
+                      // set a var for the value of the current country
+                      var currentCountry = $("#Country").val();
+
+                      // reset industry/edition dropdowns and hide av sub-dropdown when country changes
+                      // if not in us or canada show/require city
+                      if (currentCountry === 'USA' || currentCountry === 'CAN' || currentCountry === '') {
+                          $("#form-group-City").attr("style", "display:none");
+                      } else {
+                          $("#form-group-City").attr("style", "display:");
+
+                      }
+        });
+
+      // agreements datestamp
+        var curdate = new Date()
+        var displaydate = curdate.getUTCMonth() + 1 +"/"+curdate.getUTCDate()+ "/"+curdate.getUTCFullYear()
+        var Hours;
+                var Mins;
+                var Time;
+                Hours = curdate.getUTCHours();
+                if (Hours >= 12) {
+                        Time = " PM";
+                }
+                      else {
+                              Time = " AM";
+                      }
+
+                if (Hours > 12) {
+                        Hours -= 12;
+                      }
+
+                if (Hours == 0) {
+                        Hours = 12;
+                      }
+
+                Mins = curdate.getUTCMinutes();
+
+                if (Mins < 10) {
+                        Mins = "0" + Mins;
+                      }
+
+        document.getElementById("Agreements").value = 'Code|USA_3~Version|JV010115~AgreedDateTime|'+ displaydate + " " + Hours + ":" + Mins +''
+
+  });
+</script>
+
+<!-- <script>
+
+$(document).ready(function() {
+
+          //////  Get URL Params  //////
+        var getUrlParameter = function getUrlParameter(sParam) {
+            var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+                sURLVariables = sPageURL.split('&'),
+                sParameterName,
+                i;
+
+            for (i = 0; i < sURLVariables.length; i++) {
+                sParameterName = sURLVariables[i].split('=');
+
+                if (sParameterName[0] === sParam) {
+                    return sParameterName[1] === undefined ? true : sParameterName[1];
+                }
+            }
+        };
+
+        // hide editions //
+        $('.av_edition').hide();
+        $('.av_edition').hide();
+        $('.sp_edition').hide();
+        $('.tr_edition').hide();
+        $('.en_edition').hide();
+
+        ////////////////////////////////////////////////////////
+        //                                                    //
+        //  SET WAVS / REPID's to var's                       //
+        //                                                    //
+        ////////////////////////////////////////////////////////
+
+        // Sets WAV ID's for each product
+        var avA = "WMX0013409"; // aviation acquisition wav
+        var avU = "WMX0013413"; // aviation upsell wav
+        var cnA = "WMX0013438"; // construction acquisition wav
+        var cnU = "WMX0013442"; // construction upsell wav
+        var psA = "WMX0013558"; // public safety acquisition wav
+        var psU = "WMX0013563"; // public safety upsell wav
+        var spA = "WMX0013585"; // sports turf acquisition wav
+        var spU = "WMX0013589"; // sports turf upsell wav
+        var enA = "WMX0013529"; // energy acquisition wav
+        var enU = "WMX0013534"; // energy upsell wav
+        var trA = "WMX0013456"; // transportation acquisition wav
+        var trU = "WMX0013460"; // transportation upsell wav
+
+
+        // Sets SalesRep ID's for each product
+        var avRep = "18509"; // aviation repid
+        var cnRep = "18509"; // construction repid
+        var psRep = "18509"; // public safety repid
+        var spRep = "18509"; // sports turf repid
+        var enRep = "18509"; // energy repid
+        var trRep = "18509"; // transportation repid
+
+        // override repid - DO NOT EDIT!
+        var rep = getUrlParameter('rep');
+        if (rep != null) {
+        var avRep = rep;
+        var cnRep = rep;
+        var psRep = rep;
+        var spRep = rep;
+        var enRep = rep;
+        var trRep = rep;
+        }
+
+
+        // Set Service Codes for all products
+          // WSO DOMESTIC //
+            var wsoDomCons = "ServiceCd|1WCOP~Billable|N~InitialTerm|.25";
+            var wsoDomPubSaf = "ServiceCd|1WPOP~Billable|N~Term|.25";
+            // turf/sports
+            var wsoDomTurf = "ServiceCd|1WSTO~Billable|N~Term|.25";
+            var wsoDomSports = "ServiceCd|1WSSO~Billable|N~Term|.25";
+            //energy
+            var wsoDomEnergy = "ServiceCd|1WOEP~Billable|N~Term|.25";
+            var wsoDomUtil = "ServiceCd|1WOUP~Billable|N~Term|.25";
+            var wsoDomWind = "ServiceCd|1WOWP~Billable|N~Term|.25";
+            var wsoDomWater = "ServiceCd|1WWPL~Billable|N~Term|.25";
+            //transportation
+            var wsoDomTrans = "ServiceCd|1WTPP~Billable|N~Term|.25";
+            var wsoDomPave = "ServiceCd|1WPFP~Billable|N~Term|.25";
+
+          // WSO GLOBAL //
+            var wsoGlobalPubSaf = "ServiceCd|1WPGP~Billable|N~InitialTerm|.25"
+            var wsoGlobalEnergy = "ServiceCd|1WPGE~Billable|N~InitialTerm|.25"
+            var wsoGlobalWind = "ServiceCd|1WPGW~Billable|N~InitialTerm|.25"
+            var wsoGlobalTrans = "ServiceCd|1WPGV~Billable|N~InitialTerm|.25";
+
+          // ASO DOMESTIC //
+            var asoDomAirp = "ServiceCd|1WAOP~Billable|N~InitialTerm|.25";
+            var asoDomAirl = "ServiceCd|1APLA~Billable|N~Term|.25";
+            var asoDomFlightDep = "ServiceCd|1APLC~Billable|N~InitialTerm|.25";
+            var asoDomFixedBas = "ServiceCd|1APLC~Billable|N~Term|.25";
+            var asoDomGovMil = "ServiceCd|1APLC~Billable|N~Term|.25";
+            //helicopter
+            var asoDomAirMed = "ServiceCd|1APLH~Billable|N~InitialTerm|.25";
+            var asoDomLawEn = "ServiceCd|1APLH~Billable|N~Term|.25";
+            var asoDomPetrol = "ServiceCd|1APLH~Billable|N~Term|.25";
+
+          // ASO GLOBAL //
+            var asoGlobalHelicopter = "ServiceCd|1APLG~Billable|N~InitialTerm|.25";
+            var asoGlobalCorpFlight = "ServiceCd|1APL2~Billable|N~Term|.25";
+            var asoGlobalAirl = "ServiceCd|1APLA~Billable|N~InitialTerm|.25";
+            var asoGlobalAirp = "ServiceCd|1WPGO~Billable|N~Term|.25";
+
+
+      ////////////////////////////////////////////////////////
+
+
+        // initially hide industry options
+        $("#indAviation").attr("style", "display:none");
+        $("#indConstruction").attr("style", "display:none");
+        $("#indPubSafety").attr("style", "display:none");
+        $("#indTurfSports").attr("style", "display:none");
+        $("#indEnergy").attr("style", "display:none");
+        $("#indTransportation").attr("style", "display:none");
+
+        // INDUSTRY CHANGE FUNCTION //
+
+        $('#industry').change(function() {
+          if (($('#Country').val() === 'USA') || ($('#Country').val() === 'CAN')) {
+                    var location = "NA"
+                  } else {
+                    var location = "GLOBAL"
+                    }
+          // reset edition dropdown
+          $('[name=edition]').val( '' );
+
+          // initially hide editions
+          $('.av_edition').hide();
+          $('.sp_edition').hide();
+          $('.en_edition').hide();
+          $('.tr_edition').hide();
+
+          // show edition selector who's id matches the industry field selected
+          $('#' + $(this).val()).show();
+
+            if ($(this).val() === 'Transportation' && location === 'NA') { // na transportation
+                  $('#' + $(this).val()).show();
+                  // alert(location);
+              }
+            if ($(this).val() === 'Transportation' && location === 'GLOBAL') { // global transportation
+                  $('#Transportation').hide();
+                  $('#Services').val(wsoGlobalTrans);
+                  $("#CampaignID").val(trA);
+                  $("#CampaignUpsellID").val(trU);
+                  $("#SalesRepID").val(trRep);
+                  $("#IndustryCD").val(7010);
+                }
+            if ($(this).val() === 'Construction') { // Construction
+                $('#Services').val(wsoDomCons);
+                $("#CampaignID").val(cnA);
+                $("#CampaignUpsellID").val(cnU);
+                $("#SalesRepID").val(cnRep);
+                $("#IndustryCD").val(7003);
+            }
+            if ($(this).val() === 'Public Safety' && location === 'NA') { // na Public Safety
+                $('#Services').val(wsoDomPubSaf);
+                $("#CampaignID").val(psA);
+                $("#CampaignUpsellID").val(psU);
+                $("#SalesRepID").val(psRep);
+                $("#IndustryCD").val(7011);
+               }
+               if ($(this).val() === 'Public Safety' && location === 'GLOBAL') { // global public safety
+                $('#Services').val(wsoGlobalPubSaf);
+                $("#CampaignID").val(psA);
+                $("#CampaignUpsellID").val(psU);
+                $("#SalesRepID").val(psRep);
+                $("#IndustryCD").val(7011);
+           }
+
+        });
+
+        // EDITION CHANGE FUNCTIONS //
+
+        $('#TReditions').change(function() { // Transportation
+            if ($(this).val() === 'Transportation') {
+                $('#Services').val(wsoDomTrans);
+                $("#CampaignID").val(trA);
+                $("#CampaignUpsellID").val(trU);
+                $("#SalesRepID").val(trRep);
+                $("#IndustryCD").val(7010);
+          }
+            if ($(this).val() === 'Pavement') { // Pavement
+                $('#Services').val(wsoDomPave);
+                $("#CampaignID").val(trA);
+                $("#CampaignUpsellID").val(trU);
+                $("#SalesRepID").val(trRep);
+                $("#IndustryCD").val(7010);
+            }
+        });
+
+        $('#SPeditions').change(function() { // Sports Turf
+            if ($(this).val() === 'Turf') {
+                $('#Services').val(wsoDomTurf);
+                $("#CampaignID").val(spA);
+                $("#CampaignUpsellID").val(spU);
+                $("#SalesRepID").val(spRep);
+                $("#IndustryCD").val(7002);
+          }
+            if ($(this).val() === 'Sports') { // Pavement
+                $('#Services').val(wsoDomSports);
+                $("#CampaignID").val(spA);
+                $("#CampaignUpsellID").val(spU);
+                $("#SalesRepID").val(spRep);
+                $("#IndustryCD").val(7002);
+            }
+
+        });
+
+        $('#ENeditions').change(function() { // Energy
+            if (($('#Country').val() === 'USA') || ($('#Country').val() === 'CAN')) {
+                    var location = "NA"
+                  } else {
+                    var location = "GLOBAL"
+                    }
+                  // alert(location);
+            if ($(this).val() === 'Energy' && location === 'NA') {
+                $('#Services').val(wsoDomEnergy);
+                $("#CampaignID").val(enA);
+                $("#CampaignUpsellID").val(enU);
+                $("#SalesRepID").val(enRep);
+                $("#IndustryCD").val(7006);
+                }
+            if ($(this).val() === 'Utility' && location === 'NA') { // Pavement
+                $('#Services').val(wsoDomUtil);
+                $("#CampaignID").val(enA);
+                $("#CampaignUpsellID").val(enU);
+                $("#SalesRepID").val(enRep);
+                $("#IndustryCD").val(7006);
+                }
+            if ($(this).val() === 'Wind Energy' && location === 'NA') { // Pavement
+                $('#Services').val(wsoDomWind);
+                $("#CampaignID").val(enA);
+                $("#CampaignUpsellID").val(enU);
+                $("#SalesRepID").val(enRep);
+                $("#IndustryCD").val(7006);
+                }
+            if ($(this).val() === 'Water' && location === 'NA') { // Pavement
+                $('#Services').val(wsoDomWater);
+                $("#CampaignID").val(enA);
+                $("#CampaignUpsellID").val(enU);
+                $("#SalesRepID").val(enRep);
+                $("#IndustryCD").val(7006);
+                }
+
+              if ($(this).val() === 'Energy' && location === 'GLOBAL') {
+                $('#Services').val(wsoGlobalEnergy);
+                $("#CampaignID").val(enA);
+                $("#CampaignUpsellID").val(enU);
+                $("#SalesRepID").val(enRep);
+                $("#IndustryCD").val(7006);
+                }
+                if ($(this).val() === 'Wind Energy' && location === 'GLOBAL') { // Pavement
+                $('#Services').val(wsoGlobalWind);
+                $("#CampaignID").val(enA);
+                $("#CampaignUpsellID").val(enU);
+                $("#SalesRepID").val(enRep);
+                $("#IndustryCD").val(7006);
+                }
+        });
+
+        $('#AVeditions').change(function() { // Energy
+            if (($('#Country').val() === 'USA') || ($('#Country').val() === 'CAN')) {
+                    var location = "NA"
+                  } else {
+                    var location = "GLOBAL"
+                    }
+                  // alert(location);
+            if ($(this).val() === 'Helicopter' && location === 'GLOBAL') { // global heli
+                $('#Services').val(asoGlobalHelicopter);
+                $("#CampaignID").val(avA);
+                $("#CampaignUpsellID").val(avU);
+                $("#SalesRepID").val(avRep);
+                $("#IndustryCD").val(7004);
+                }
+            if ($(this).val() === 'Corporate' && location === 'GLOBAL') { // global corp flight
+                $('#Services').val(asoGlobalCorpFlight);
+                $("#CampaignID").val(avA);
+                $("#CampaignUpsellID").val(avU);
+                $("#SalesRepID").val(avRep);
+                $("#IndustryCD").val(7004);
+                }
+            if ($(this).val() === 'Airports' && location === 'NA') {  // na airports
+                $('#Services').val(asoDomAirp);
+                $("#CampaignID").val(avA);
+                $("#CampaignUpsellID").val(avU);
+                $("#SalesRepID").val(avRep);
+                $("#IndustryCD").val(7004);
+                }
+            if ($(this).val() === 'Airports' && location === 'GLOBAL') {  // global airports
+                $('#Services').val(asoGlobalAirp);
+                $("#CampaignID").val(avA);
+                $("#CampaignUpsellID").val(avU);
+                $("#SalesRepID").val(avRep);
+                $("#IndustryCD").val(7004);
+                }
+            if ($(this).val() === 'CA Airlines' && location === 'NA') { // na airlines
+                $('#Services').val(asoDomAirl);
+                $("#CampaignID").val(avA);
+                $("#CampaignUpsellID").val(avU);
+                $("#SalesRepID").val(avRep);
+                $("#IndustryCD").val(7004);
+                }
+            if ($(this).val() === 'CA Airlines' && location === 'GLOBAL') { // global airlines
+                $('#Services').val(asoGlobalAirl);
+                $("#CampaignID").val(avA);
+                $("#CampaignUpsellID").val(avU);
+                $("#SalesRepID").val(avRep);
+                $("#IndustryCD").val(7004);
+                }
+            if ($(this).val() === 'Flight Departments' && location === 'NA') { // na flight dept
+                $('#Services').val(asoDomFlightDep);
+                $("#CampaignID").val(avA);
+                $("#CampaignUpsellID").val(avU);
+                $("#SalesRepID").val(avRep);
+                $("#IndustryCD").val(7004);
+                }
+            if ($(this).val() === 'Fixed Base Operators' && location === 'NA') { // na fbo
+                $('#Services').val(asoDomFixedBas);
+                $("#CampaignID").val(avA);
+                $("#CampaignUpsellID").val(avU);
+                $("#SalesRepID").val(avRep);
+                $("#IndustryCD").val(7004);
+                }
+
+              if ($(this).val() === 'Government Military' && location === 'NA') {  // na gov military
+                $('#Services').val(asoDomGovMil);
+                $("#CampaignID").val(avA);
+                $("#CampaignUpsellID").val(avU);
+                $("#SalesRepID").val(avRep);
+                $("#IndustryCD").val(7004);
+                }
+                if ($(this).val() === 'Heli Air Medical' && location === 'NA') { // na heli air med
+                $('#Services').val(asoDomAirMed);
+                $("#CampaignID").val(avA);
+                $("#CampaignUpsellID").val(avU);
+                $("#SalesRepID").val(avRep);
+                $("#IndustryCD").val(7004);
+                }
+                if ($(this).val() === 'Heli Law Enforcement' && location === 'NA') { // na heli law
+                $('#Services').val(asoDomLawEn);
+                $("#CampaignID").val(avA);
+                $("#CampaignUpsellID").val(avU);
+                $("#SalesRepID").val(avRep);
+                $("#IndustryCD").val(7004);
+                }
+                if ($(this).val() === 'Heli Petroleum' && location === 'NA') { // na heli petrol
+                $('#Services').val(asoDomPetrol);
+                $("#CampaignID").val(avA);
+                $("#CampaignUpsellID").val(avU);
+                $("#SalesRepID").val(avRep);
+                $("#IndustryCD").val(7004);
+                }
+        });
+
+
+        // COUNTRY CHANGE FUNCTION //
+
+        $('#Country').change(function() {
+
+                // set a var for the value of the current country
+                var currentCountry = $("#Country").val();
+                $("#coLocation").val(currentCountry);
+
+                // reset industry/edition dropdowns and hide av sub-dropdown when country changes
+                $('[name=industry]').val( '' );
+                $('[name=edition]').val( '' );
+                $('.av_edition').hide();
+                $('.sp_edition').hide();
+                $('.tr_edition').hide();
+                $('.en_edition').hide();
+
+                // if not in us or canada show/require city
+                if (currentCountry === 'USA' || currentCountry === 'CAN' || currentCountry === '') {
+                    $("#form-group-City").attr("style", "display:none");
+                } else {
+                    $("#form-group-City").attr("style", "display:");
+
+                }
+
+                // all products
+                if (currentCountry === 'USA' || currentCountry === 'CAN') {
+                    // industry selectors
+                    $("#indAviation").attr("style", "display:");
+                    $("#indConstruction").attr("style", "display:");
+                    $("#indPubSafety").attr("style", "display:");
+                    $("#indTurfSports").attr("style", "display:");
+                    $("#indEnergy").attr("style", "display:");
+                    $("#indTransportation").attr("style", "display:");
+                    // energy subselector
+                    $("#edEnergy").attr("style", "display:");
+                    $("#edUtility").attr("style", "display:");
+                    $("#edWind").attr("style", "display:");
+                    $("#edWater").attr("style", "display:");
+                    // av subselector
+                    $("#edHelicopter").attr("style", "display:none");
+                    $("#edCorporate").attr("style", "display:none");
+                    $("#edAirline").attr("style", "display:");
+                    $("#edAirport").attr("style", "display:");
+                    $("#edFlightDept").attr("style", "display:");
+                    $("#edFBO").attr("style", "display:");
+                    $("#edGovMil").attr("style", "display:");
+                    $("#optgroupHeli").attr("style", "display:");
+                } else {
+                    // industry selectors
+                    $("#indAviation").attr("style", "display:");
+                    $("#indConstruction").attr("style", "display:none");
+                    $("#indPubSafety").attr("style", "display:");
+                    $("#indTurfSports").attr("style", "display:none");
+                    $("#indEnergy").attr("style", "display:");
+                    $("#indTransportation").attr("style", "display:");
+                    // energy subselector
+                    $("#edUtility").attr("style", "display:none");
+                    $("#edWater").attr("style", "display:none");
+                    // av subselector
+                    $("#edHelicopter").attr("style", "display:");
+                    $("#edCorporate").attr("style", "display:");
+                    $("#edFlightDept").attr("style", "display:none");
+                    $("#edFBO").attr("style", "display:none");
+                    $("#edGovMil").attr("style", "display:none");
+                    $("#optgroupHeli").attr("style", "display:none");
+
+                  }
+
+                // Manually overide which products will be available from dropdown menu
+                var prodselect = "all"; // all | allnoav | aviation | construction | pubsafe | sportsrec | energy | transportation
+
+                // noav
+                if (prodselect === 'allnoav') {
+                    $("#indAviation").attr("style", "display:none");
+                }
+
+                // single products
+                if (prodselect === 'aviation') {
+                    $('#indAviation').show();
+                    $('.indoptions').not('#indAviation').hide();
+                }
+                if (prodselect === 'construction') {
+                    $('#indConstruction').show();
+                    $('.indoptions').not('#indConstruction').hide();
+                }
+                if (prodselect === 'pubsafe') {
+                    $('#indPubSafety').show();
+                    $('.indoptions').not('#indPubSafety').hide();
+                }
+                if (prodselect === 'sportsrec') {
+                    $('#indTurfSports').show();
+                    $('.indoptions').not('#indTurfSports').hide();
+                }
+                if (prodselect === 'energy') {
+                    $('#indEnergy').show();
+                    $('.indoptions').not('#indEnergy').hide();
+                }
+                if (prodselect === 'transportation') {
+                    $('#indTransportation').show();
+                    $('.indoptions').not('#indTransportation').hide();
+                }
+
+        });
+
+// END COUNTRY CHANGE FUNCTION //
+
+
+});
+    </script> -->
+
+
+
+  </body>
+</html>
